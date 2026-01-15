@@ -1,0 +1,165 @@
+{
+    "section_3_attention": {
+        "description": "Transformer Self-Attention Distribution",
+        "sentence": "The animal didn't cross the street because it was too tired",
+        "matrix_dim": [
+            10,
+            10
+        ],
+        "key_connection": {
+            "source": "it",
+            "target": "animal",
+            "weight": 0.9
+        }
+    },
+    "section_5_scaling_laws": {
+        "description": "Empirical Scaling Laws: Compute vs Loss",
+        "data": {
+            "compute_flops": [
+                1e19,
+                1e20,
+                1e21,
+                1e22,
+                1e23,
+                1e24,
+                1e25
+            ],
+            "cross_entropy_loss": [
+                4.0,
+                3.4,
+                2.9,
+                2.5,
+                2.1,
+                1.8,
+                1.5
+            ],
+            "model_labels": [
+                "GPT-2 Small",
+                "GPT-2 XL",
+                "GPT-3 Small",
+                "GPT-3 Med",
+                "GPT-3 175B",
+                "GPT-4",
+                "Frontier"
+            ]
+        }
+    },
+    "section_5b_emergence": {
+        "description": "Emergence of Arithmetic Proficiency at Scale",
+        "data": {
+            "model_scale_billions": [
+                0.1,
+                1,
+                10,
+                50,
+                100,
+                175,
+                500
+            ],
+            "accuracy_3_digit_add": [
+                1,
+                2,
+                3,
+                5,
+                10,
+                85,
+                95
+            ]
+        }
+    },
+    "section_6_forecast": {
+        "description": "Forecasted General Reasoning Capabilities (MMLU)",
+        "years": [
+            2022,
+            2023,
+            2024,
+            2025,
+            2026,
+            2027,
+            2028
+        ],
+        "historical_mmlu": [
+            70,
+            86,
+            90,
+            null,
+            null,
+            null,
+            null
+        ],
+        "scenarios": {
+            "aggressive": [
+                null,
+                null,
+                90,
+                96,
+                99,
+                99.9,
+                100
+            ],
+            "linear": [
+                null,
+                null,
+                90,
+                92,
+                93,
+                94,
+                95
+            ],
+            "stagnation": [
+                null,
+                null,
+                90,
+                91,
+                91.5,
+                92,
+                92
+            ]
+        }
+    },
+    "section_7_trust": {
+        "description": "The Paradox of Automation (Trust vs Capability)",
+        "data": {
+            "model_generations": [
+                "Gen1",
+                "Gen2",
+                "Gen3",
+                "Gen4",
+                "Gen5",
+                "Gen6",
+                "Gen7"
+            ],
+            "ai_accuracy": [
+                50,
+                60,
+                70,
+                80,
+                90,
+                95,
+                99
+            ],
+            "human_verification_rate": [
+                100,
+                95,
+                80,
+                60,
+                30,
+                10,
+                0
+            ]
+        }
+    },
+    "section_8_economic": {
+        "description": "The Redistributive Impact of LLMs",
+        "data": {
+            "low_skill": {
+                "no_ai": 3.0,
+                "with_ai": 7.5
+            },
+            "high_skill": {
+                "no_ai": 8.0,
+                "with_ai": 8.5
+            }
+        }
+    }
+}
