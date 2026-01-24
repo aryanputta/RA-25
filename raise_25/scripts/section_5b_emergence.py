@@ -8,7 +8,7 @@ def plot_emergent_capabilities():
     Section 5 (Part B): Emergent Capabilities
     Visualizes phase transition/spike in capability.
     """
-    # Data from prompt
+
     model_scale_billions = [0.1, 1, 10, 50, 100, 175, 500]
     accuracy_3_digit_add = [1, 2, 3, 5, 10, 85, 95]
     
